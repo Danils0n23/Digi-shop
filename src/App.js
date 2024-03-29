@@ -1,10 +1,9 @@
 // src/App.js
 import React, { useState } from 'react';
 import './App.css';
-import Product from './components/Product';
-import ShoppingCart from './components/ShoppingCart';
-import { getProducts } from './services/productService';
-
+import Product from './components/pages/Product';
+import ShoppingCart from './components/pages/ShoppingCart';
+import { getProducts } from './ProductService';
 function App() {
   const [cartItems, setCartItems] = useState([]);
 
