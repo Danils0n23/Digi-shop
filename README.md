@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Digi-Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao Digi-Shop, uma aplicação simples para compras online de produtos digitais.
 
-## Available Scripts
+## Descrição
 
-In the project directory, you can run:
+Digi-Shop é uma aplicação web que permite aos usuários visualizar uma lista de produtos digitais disponíveis para compra, adicionar produtos ao carrinho de compras e visualizar o carrinho com os produtos selecionados.
 
-### `npm start`
+## Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React.js: Para a construção da interface do usuário.
+- Node.js: Para o desenvolvimento do backend da aplicação.
+- HTML, CSS: Para a estrutura e estilização da aplicação.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Requisitos
 
-### `npm test`
+- Node.js instalado no seu sistema.
+- Navegador web moderno (como Chrome, Firefox, Safari).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalação
 
-### `npm run build`
+1. Clone o repositório para o seu computador:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/seu-usuario/digi-shop.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navegue até o diretório do projeto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd digi-shop
+   ```
 
-### `npm run eject`
+3. Instale as dependências do projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Uso
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Inicie o servidor de desenvolvimento:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+2. Abra seu navegador e acesse [http://localhost:3000](http://localhost:3000) para visualizar a aplicação.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Explore os produtos disponíveis, adicione produtos ao carrinho e visualize o carrinho de compras.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Estrutura do Projeto
 
-### Code Splitting
+- `/public`: Contém os arquivos públicos da aplicação.
+- `/src`: Contém o código-fonte da aplicação.
+  - `/components`: Componentes React da aplicação.
+  - `/data`: Arquivos JSON contendo os dados dos produtos.
+  - `/pages`: Páginas da aplicação.
+  - `/styles`: Arquivos CSS para estilização da aplicação.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contribuição
 
-### Analyzing the Bundle Size
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um PR ou relatar problemas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Licença
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a [MIT License](LICENSE).
