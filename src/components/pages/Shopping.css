@@ -1,0 +1,27 @@
+.shopping-cart h2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shopping-cart h2 svg {
+    margin-right: 10px;
+  }
+  
+  .shopping-cart ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .shopping-cart li {
+    margin-bottom: 10px;
+  }
+  
+  .shopping-cart li div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .shopping-cart li div span {
+    margin-right: 10px;
+  }
+  
